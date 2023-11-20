@@ -13,9 +13,9 @@ function Header() {
         <ul className="menu">
           <li className="nav-item"><Link to="/" element={<Home/>}>Home</Link></li>
           <li className="nav-item"><Link to="/sobre" element={<Sobre/>} className="nav-link">Sobre</Link></li>
-          <li className="nav-item"><Link to="#pagina3" className="nav-link">Filmes</Link></li>
-          <li className="nav-item"><Link to="#pagina4" className="nav-link">Novidades</Link></li>
-          <li className="nav-item"><Link to="#pagina5" className="nav-link">Contato</Link></li>
+          <li className="nav-item"><Link to="/" element={<Home/>}>Filmes</Link></li>
+          <li className="nav-item"><Link to="/" element={<Home/>}>Novidades</Link></li>
+          <li className="nav-item"><Link to="/" element={<Home/>}>Contato</Link></li>
         </ul>
         <div className="px-3 geral">
           <span className="bar"></span>
