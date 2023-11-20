@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
+import Carrossel from '../../components/Carrossel';
 
 function Home (){
     return(
-        <div className='container'>
-        </div>
+        <>
+            <Carrossel/>
+        </>
     );
 }
 
